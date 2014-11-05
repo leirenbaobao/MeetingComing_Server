@@ -13,14 +13,15 @@ public class PushTest {
 		Pusher pusher;
 		try {
 			pusher = new Pusher("www.lofver.com", 9999, 1000);
-			byte[] bs = md5Byte("user01");
-			boolean result = pusher.push0x20Message(bs, "push1".getBytes());
+			byte[] bs = md5Byte("qq");
+			boolean result = pusher.push0x20Message(bs, "push".getBytes());
 			System.out.println(result);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 	}
+	
 	@Test
 	public void test1() {
 		System.out.println(md5Byte("1"));
@@ -38,7 +39,6 @@ public class PushTest {
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
 		}
-
 		return md.digest();
 	}
 }

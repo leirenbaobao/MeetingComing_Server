@@ -15,10 +15,14 @@
 			<version>4.10</version>
 		</dependency>
 		<!-- jfinal mvc+orm框架 -->
+		<!-- <dependency> <groupId>com.jfinal</groupId> <artifactId>jfinal</artifactId> 
+			<version>1.9</version> </dependency> -->
 		<dependency>
-			<groupId>com.jfinal</groupId>
+			<groupId>jfinal</groupId>
 			<artifactId>jfinal</artifactId>
-			<version>1.8</version>
+			<version>1.9</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/jfinal-1.9.jar</systemPath>
 		</dependency>
 		<!-- beetl 模版引擎 -->
 		<dependency>

@@ -1,4 +1,4 @@
-package common;
+package com.ctrlz.common;
 
 import org.beetl.core.GroupTemplate;
 import org.beetl.ext.jfinal.BeetlRenderFactory;

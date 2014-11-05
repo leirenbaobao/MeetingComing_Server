@@ -1,4 +1,4 @@
-package common;
+package com.ctrlz.common;
 
 import com.jfinal.core.Controller;
 
