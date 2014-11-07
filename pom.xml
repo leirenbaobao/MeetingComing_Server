@@ -15,14 +15,10 @@
 			<version>4.10</version>
 		</dependency>
 		<!-- jfinal mvc+orm框架 -->
-		<!-- <dependency> <groupId>com.jfinal</groupId> <artifactId>jfinal</artifactId> 
-			<version>1.9</version> </dependency> -->
 		<dependency>
-			<groupId>jfinal</groupId>
+			<groupId>com.jfinal</groupId>
 			<artifactId>jfinal</artifactId>
 			<version>1.9</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/lib/jfinal-1.9.jar</systemPath>
 		</dependency>
 		<!-- beetl 模版引擎 -->
 		<dependency>
@@ -66,12 +62,15 @@
 			<artifactId>sqlite-jdbc</artifactId>
 			<version>3.8.7</version>
 		</dependency>
-		<!-- cos上传下载组件 jfinal集成用 -->
+		<!-- mysql数据库 jdbc -->
 		<dependency>
-			<groupId>com.jfinal</groupId>
-			<artifactId>cos</artifactId>
-			<version>26Dec2008</version>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.31</version>
 		</dependency>
+		<!-- cos上传下载组件 jfinal集成用 -->
+		<!-- <dependency> <groupId>com.jfinal</groupId> <artifactId>cos</artifactId> 
+			<version>26Dec2008</version> </dependency> -->
 		<!--joda-time 时间计算 -->
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -83,6 +82,12 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.16</version>
+		</dependency>
+		<!-- 二维码 -->
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.0.1</version>
 		</dependency>
 		<!-- push -->
 		<dependency>

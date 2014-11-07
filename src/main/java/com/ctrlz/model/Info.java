@@ -1,7 +1,14 @@
 package com.ctrlz.model;
 import com.jfinal.plugin.activerecord.Model;
-
+@SuppressWarnings("serial")
 public class Info extends Model<Info> {
-	private static final long serialVersionUID = -3146104033521785117L;
+
 	public static final Info dao = new Info();
+
+	public Info getInfo(int id) {
+		if (id != 0) {
+			return Info.dao.findFirst("select * from info where staffId=?", id);
+		}
+		return null;
+	}
 }

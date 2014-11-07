@@ -1,7 +1,13 @@
 package com.ctrlz.model;
-import com.jfinal.plugin.activerecord.Model;
+import java.util.List;
 
+import com.jfinal.plugin.activerecord.Model;
+@SuppressWarnings("serial")
 public class Department extends Model<Department> {
-	private static final long serialVersionUID = -3146104033521785117L;
+
 	public static final Department dao = new Department();
+
+	public List<Department> findAll() {
+		return Department.dao.find("select departmentId,name as department from department");
+	}
 }

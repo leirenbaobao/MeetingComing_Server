@@ -1,65 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.058" errors="0" skipped="0" tests="2" name="meeting.PushTest">
+<testsuite failures="0" time="0.462" errors="0" skipped="0" tests="4" name="meeting.PushTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="D:\Java\jdk1.6.0_43\jre\bin"/>
-    <property name="java.vm.version" value="20.14-b01"/>
-    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
-    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="sun.boot.library.path" value="E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\sfbm-java08\git\meeting"/>
-    <property name="java.runtime.version" value="1.6.0_43-b01"/>
+    <property name="user.dir" value="E:\MyEclipse 2015 CI\workspace\meeting"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="D:\Java\jdk1.6.0_43\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\SFBM-J~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6867494486493186646.tmp"/>
+    <property name="classworlds.conf" value="E:\MyEclipse 2015 CI\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4948060089876587376.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Java\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jdk1.6.0_43/bin/../jre/bin/server;D:/Java/jdk1.6.0_43/bin/../jre/bin;D:/Java/jdk1.6.0_43/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;D:\Java\jdk1.6.0_43\bin;D:\apache-tomcat-6.0.39\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\maven\bin;D:\mongodb;D:\MySQL\MySQL Server 5.0\bin;C:\Program Files\TortoiseGit\bin;D:\maven\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\bin;C:\Go\bin;E:\eclipse;;."/>
+    <property name="java.library.path" value="E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;D:\Java\jdk1.6.0_43\bin;D:\apache-tomcat-6.0.39\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\maven\bin;D:\mongodb;D:\MySQL\MySQL Server 5.0\bin;C:\Program Files\TortoiseGit\bin;D:\maven\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\bin;C:\Go\bin;C:\HashiCorp\Vagrant\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="50.0"/>
+    <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
     <property name="user.home" value="C:\Users\sfbm-java08"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="1.6"/>
     <property name="user.name" value="sfbm-java08"/>
-    <property name="java.class.path" value="D:\maven\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="java.class.path" value="/E:/MyEclipse 2015 CI/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="D:\Java\jdk1.6.0_43\jre"/>
+    <property name="java.home" value="E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
-    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.6.0_43"/>
-    <property name="java.ext.dirs" value="D:\Java\jdk1.6.0_43\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="D:\Java\jdk1.6.0_43\jre\lib\resources.jar;D:\Java\jdk1.6.0_43\jre\lib\rt.jar;D:\Java\jdk1.6.0_43\jre\lib\sunrsasign.jar;D:\Java\jdk1.6.0_43\jre\lib\jsse.jar;D:\Java\jdk1.6.0_43\jre\lib\jce.jar;D:\Java\jdk1.6.0_43\jre\lib\charsets.jar;D:\Java\jdk1.6.0_43\jre\lib\modules\jdk.boot.jar;D:\Java\jdk1.6.0_43\jre\classes"/>
-    <property name="java.vendor" value="Sun Microsystems Inc."/>
-    <property name="maven.home" value="D:\maven"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\resources.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\rt.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\sunrsasign.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jsse.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jce.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\charsets.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jfr.jar;E:\MyEclipse 2015 CI\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\MyEclipse 2015 CI\workspace\meeting\EMBEDDED"/>
     <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.058" classname="meeting.PushTest" name="test"/>
+  <testcase time="0.433" classname="meeting.PushTest" name="test"/>
+  <testcase time="0.003" classname="meeting.PushTest" name="test2"/>
+  <testcase time="0.026" classname="meeting.PushTest" name="test3"/>
   <testcase time="0" classname="meeting.PushTest" name="test1"/>
 </testsuite>

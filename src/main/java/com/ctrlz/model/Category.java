@@ -1,7 +1,14 @@
 package com.ctrlz.model;
-import com.jfinal.plugin.activerecord.Model;
+import java.util.List;
 
+import com.jfinal.plugin.activerecord.Model;
+@SuppressWarnings("serial")
 public class Category extends Model<Category> {
-	private static final long serialVersionUID = -3146104033521785117L;
+
 	public static final Category dao = new Category();
+
+	// TODO:会议类型表变动时清除cache
+	public List<Category> findAll() {
+		return dao.findByCache("base", "categorys", "select * from category");
+	}
 }
